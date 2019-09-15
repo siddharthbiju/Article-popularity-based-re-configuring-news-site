@@ -42,7 +42,7 @@ for i in range(10):
         temp = temp[1:]
     temp = temp + " latest news articles"
     keyarray.append(temp)
-    print(keyarray[i])
+    #print(keyarray[i])
 
 print("searching for news links in google....")
 
