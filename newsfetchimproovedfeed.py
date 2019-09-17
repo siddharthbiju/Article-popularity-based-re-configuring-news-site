@@ -28,7 +28,7 @@ def print_news(url):
         r = 0
     if r > 200:
         quality = quality+1
-        print("Trending news #"+quality)
+        print("Trending news #"+str(quality))
         print(article.title)
         print("\n")
         print(article.text)
