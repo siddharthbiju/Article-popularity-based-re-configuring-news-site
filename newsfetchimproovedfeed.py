@@ -1,3 +1,5 @@
+from os import path
+import os.path
 import subprocess
 import json
 from googlesearch import search
@@ -12,10 +14,11 @@ def bash_command(cmd):
 
 def my_function(query):
     try:
-        for j in search(query, tld="com", num=1, start=0, stop=1, pause=5):
+        for j in search(query, tld="com", lang='en', num=1, start=0, stop=1, pause=5):
             return(j)
     except:
-        print("Google search can't be performed at the moment..")
+        print("Google search can't be performed at the moment. try changing ip....")
+        exit(0)
 
 
 def print_news(url):
@@ -39,6 +42,7 @@ def print_news(url):
                 print("\n")
         except:
             print("news extract cannot be perfomed...")
+
     except:
         print("news extract cannot be perfomed...")
 
@@ -56,7 +60,6 @@ def fetch_and_display():
 
 bash_command(
     'twurl /1.1/trends/place.json?id=23424848 > /tmp/copy.json ')
-
 
 f = open("/tmp/copy.json", "r")
 data = f.read()
