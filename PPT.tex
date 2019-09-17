@@ -21,8 +21,41 @@
 	\end{frame}
 	\section{Approaches}
 	\begin{frame}{Approach 1}
+		\footnotesize
+	Input : nil \\
+	Output :  website with trending news
+	
+	\footnotesize
+	\textbf{server side algorithm: }\\
+	step 1 :  for each 24 hours : \\
+	\hspace{.2cm} step 1.1 : twurl /1.1/trends/place.json?id=1 > copy.json\\
+	step 2:  data = file.read() \\
+	step 3:  from i=0 to i=10 \\
+	\hspace{.2cm}step 3.1: temp = data[0]["trends"][i]["name"]\\   
+	\hspace{.2cm}Step 3.2:  temp = temp[1:]  \\
+\hspace{.2cm}Step 3.3:  temp = temp + " latest news articles"\\
+\hspace{.2cm}Step 3.4:  keyarray.append(temp)  \\
+step 4: crawl google for news links using keyarray values\\
+step 5: seperate title and content from links obtained  and append to an array with id \\
+step 6: accept get request with news id\\
+step 7: return array[id]
 		
 	\end{frame}
+	\begin{frame}{Approach 1 cont ...}	
+	\footnotesize
+	\textbf{client side algorithm: }\\
+	step 1 : render  navbar .js  \\	
+	step 2:  render  contents .js \\
+	\vspace{5mm}
+	\textbf{contents .js}\\
+	\vspace{5mm}
+	1. for(i=0;i<10;i++)\\
+	\hspace{.2cm}1.1 get 127.0.0.1 with i as id\\
+	\hspace{.2cm}1.2 store response in an array\\
+	2. render title and contents in array
+	
+  
+\end{frame}
 	\begin{frame}{Approach 2}
 		
 	\end{frame}
