@@ -1,0 +1,27 @@
+Input: nil 
+Output: website with popular news articles
+	
+	
+	step 1: For every 1 hour extract latest news article details from different news site 
+	(includes TimeofPublish ,ups,downs)
+	step 2:Find the number of articles extracted
+	step 3: Using reddit hot ranking algorithm sort the news articles based on popularity rank
+	step 4:Display each article based on the rank calculated.
+reddit hot ranking algorithm:
+	step 1:start
+	step 2:for each article extract the time of publish,upcount,downcount
+	step 3:set ep=1970,1,1 in datetime format
+	step 4.define a function epsec(date)
+	step 4.1:td=date - ep
+    step 4.2:return td.days * 86400 + td.seconds +(float(td.microseconds) / 1000000)
+	step 5:define a function score(upcount,downcount)
+step 5.1:return upcount-downcoun)
+	step 6:define a function hot(upcount,downcount,date)
+step 6.1:s = score(upcount, downcount)
+  step 6.2:order = log(max(abs(s), 1), 10)
+   step 6.3:sign = 1 if s is grater than 0 else -1 if s less than 0 else 0
+   
+    
+    step 6.4:seconds = epsec(date) - 1134028003
+    step 6.5:return round(sign * order + seconds / 45000, 7)
+    step 7:stop
