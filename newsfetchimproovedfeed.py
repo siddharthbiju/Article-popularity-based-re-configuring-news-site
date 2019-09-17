@@ -2,7 +2,7 @@ import subprocess
 import json
 from googlesearch import search
 from newsplease import NewsPlease
-quality = 1
+quality = 0
 item = 0
 
 
@@ -11,29 +11,36 @@ def bash_command(cmd):
 
 
 def my_function(query):
-
-    for j in search(query, tld="com", num=1, start=0, stop=1, pause=5):
-        return(j)
+    try:
+        for j in search(query, tld="com", num=1, start=0, stop=1, pause=5):
+            return(j)
+    except:
+        print("Google search can't be performed at the moment..")
 
 
 def print_news(url):
     global quality
-
-    article = NewsPlease.from_url(url)
-    tem = article.text
-    if type(tem) is str:
-        res = len(tem.split())
-        r = int(res)
-    else:
-        r = 0
-    if r > 200:
-        quality = quality+1
-        print("Trending news #"+quality)
-        print(article.title)
-        print("\n")
-        print(article.text)
-        print(article.url)
-        print("\n")
+    try:
+        article = NewsPlease.from_url(url)
+        try:
+            tem = article.text
+            if type(tem) is str:
+                res = len(tem.split())
+                r = int(res)
+            else:
+                r = 0
+            if r > 200:
+                quality = quality+1
+                print("Trending news #"+str(quality))
+                print(article.title)
+                print("\n")
+                print(article.text)
+                print(article.url)
+                print("\n")
+        except:
+            print("news extract cannot be perfomed...")
+    except:
+        print("news extract cannot be perfomed...")
 
 
 def fetch_and_display():
@@ -56,6 +63,6 @@ data = f.read()
 f.close
 data = json.loads(data)
 
-while quality < 11:
+while quality < 10:
     # print(quality)
     fetch_and_display()
