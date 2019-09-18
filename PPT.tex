@@ -4,6 +4,14 @@
 
 \title{Automatic reconfiguring news site}
 \begin{document}
+\begin{frame}{}
+\centering \textbf{ Automatic reconfiguring news site} \newline \newline
+\centering \textbf{S5 CSB} \newline \newline
+\centering Nikhill Shanmukhan \newline
+\centering Sachit Anand \newline
+\centering Siddharth Biju \newline
+\centering Sidharth Sreekumar \newline
+\end{frame}
 	\begin{frame}{Page of Contents}
 		\tableofcontents
 	\end{frame}
@@ -13,14 +21,14 @@
 			\item \Large{News is the information about an event happening right
 			now.}
 			\item Online news reading has become a popular way to read news articles from a huge collection of news sources all around.
-			\item In this work we present a method for identifying top news in the web environment that consists of diversiﬁed news portals. 
+			\item In this work we present a method for identifying top news in the web environment[1] that consists of diversiﬁed news portals. 
 		\end{itemize}
 	\end{frame}
 	\section{Statement}
 	\begin{frame}{Problem Statement}
 	    \begin{itemize}
 	        \item  \Large{News websites are one of the most visited destinations on the web.}
-	        \item \Large { As there are many news portals created on a daily basis, each having its own preference for which news are important, detecting unbiased important and popular news are the complex part of the news portal development.}
+	        \item \Large { As there are many news portals created on a daily basis, each having its own preference for which news are important, detecting unbiased[2] important and popular news are the complex part of the news portal development.}
 	    \end{itemize}
 	\end{frame}
 	\section{Approaches}
@@ -121,10 +129,10 @@
 		   \begin{itemize}
         	\item \Large Algoritm\\
         	\footnotesize
-        	\Large{Input: News title\\
+        	\Large{Input: Nil\\
         	Output: Articles sorted based on popularity \\  }
    	   \end{itemize}	
-           \Large{ Step 1:Search title using search engine\\
+           \Large{ Step 1:Search for all recent news sites using search engine\\
             Step 2:Repeat Step 3,4 until no more chances left\\
             Step 3:Views of every page is stored\\
             Step 4:Compare views of all pages\\
@@ -134,35 +142,48 @@
 
 	\end{frame}
 	\begin{frame}{Approach 4 cont...}
-	    \Large{Step 6:Repeat from Step 1 until no more input\\
-            Step 7:All articles extracted are sorted according to the number of views\\
-            Step 8:Print title and content of sorted articles\\} 
+	    \Large{
+            Step 6:All articles extracted are sorted according to the number of views\\
+            Step 7:Print title and content of sorted articles\\} 
 	\end{frame}
 	\section{Comparison}
 	\begin{frame}{Comparison}
 	\begin{itemize}
-            \item \Large{On comparing Approach 1 and 4 ,Approach 4 takes more time to complete as it searches entire pages available for satisfying the title inputed.      
-            \item comparing Approach 1 and 2,Approach 2 its more difficult to implement to news articles as downvote and upvote my not be present in all articles.}
+            \item \Large{On comparing Approach 1 and 4 ,Approach 1 takes only articles from twitter and articles may not be always available.      
+            \item comparing Approach 4 and 2,Approach 2 its more difficult to implement to news articles as downvote[3] and upvote[4] my not be present in all articles.}
   	    \end{itemize}
   	 \end{frame}
     \begin{frame}{Comparison contd..}
         \begin{itemize}
-            \item \Large {Approach 3 has more execution time when compared to Approach 1 and there are possible cases of HTTP errors}
+            \item \Large {Approach 3 has  possible cases of HTTP error and popularity may not be accurate}
         \end{itemize}
 	\end{frame}
 	\section{Ethical and Social Relevance}
 	\begin{frame}{Relevance}
+	\begin{itemize}
+	    \item \Large{News websites give the information to the public – political, social, sports, entertainment etc.}
+	    \item \large{News Sites play a vital role in educating and informing Mass with latest updates, current happenings around the globe.}
+	\end{itemize}
 	\end{frame}
-	\section{Analysis}
-	\begin{frame}{Problem analysis}
+
+	\section{Solution and Conclusion}
+	
+	\begin{frame}{Solution and Conclusion}
+	\begin{itemize}
+	
+	\item \Large In this work, we propose a method to detect and to rank important news stories in web environment
+	\item \Largeuse  We use google search to fetch news from all website.
+	\item \Largeuse  Then we analyze the total views of all website using google analytics.
+	\item \Largeuse  After that we separate the title and content of the news articles and display it.
+	\end{itemize}
 	\end{frame}
-	\section{Solution}
-	\begin{frame}{Solution}
-	\end{frame}
-	\section{Conclusion}
-	\begin{frame}{Conclusion}
-	\end{frame}
+	
 	\section{Reference}
 	\begin{frame}{Reference}
-	\end{frame}
+	    \small[1]https://www.ibm.com/
+	    \newline
+	    [2]https://en.wikipedia.org/
+	    \newline
+	    [3]https://en.wiktionary.org/
+	     \end{frame}
 \end{document}
