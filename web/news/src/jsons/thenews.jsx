@@ -1,9 +1,24 @@
-import React, { PureComponent } from "react";
+import React from "react";
+import PostData from "./new.json";
 
 class News extends React.Component {
-  state = {};
   render() {
-    return <h1>hello</h1>;
+    const ll = this.props.coun;
+
+    return (
+      <div>
+        {PostData.map((postDetail, index) => {
+          if (index === ll)
+            return (
+              <div key={index}>
+                <h1>{postDetail.title}</h1>
+                <p>{postDetail.content}</p>
+                <a href={postDetail.url}>{postDetail.url}</a>
+              </div>
+            );
+        })}
+      </div>
+    );
   }
 }
 
