@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup Project
+
+In the project directory, to set up, run:
+
+### `npm install`
+
+### `npm install --save reactstrap react react-dom`
+
+### `npm install --save bootstrap`
+
+### `npm install --save reactstrap react react-dom`
+
+### `npm install react-bootstrap`
+
 ## Available Scripts
 
 In the project directory, you can run:
