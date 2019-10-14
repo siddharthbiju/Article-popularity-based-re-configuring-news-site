@@ -10,8 +10,6 @@ In the project directory, to set up, run:
 
 ### `npm install --save bootstrap`
 
-### `npm install --save reactstrap react react-dom`
-
 ### `npm install react-bootstrap`
 
 ## Available Scripts
