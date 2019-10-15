@@ -41,10 +41,10 @@ def print_news(url):
                 print(article.url)
                 print("\n")
         except:
-            print("news extract cannot be perfomed...")
+            print(".....")
 
     except:
-        print("news extract cannot be perfomed...")
+        print(".....")
 
 
 def fetch_and_display():
