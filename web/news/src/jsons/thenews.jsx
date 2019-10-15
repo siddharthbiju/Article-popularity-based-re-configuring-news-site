@@ -1,5 +1,6 @@
 import React from "react";
 import PostData from "./new.json";
+import "./border.css"
 
 class News extends React.Component {
   render() {
@@ -11,12 +12,14 @@ class News extends React.Component {
           if (index === ll)
             return (
               <div key={index}>
-                <h1>{postDetail.title}</h1>
+                <h1 className="bor">
+                <h2 className="p">{postDetail.title}</h2>
                 <p>{postDetail.content}</p>
                 <a href={postDetail.url}>{postDetail.url}</a>
+                </h1>
               </div>
             );
-        })}
+        })} 
       </div>
     );
   }

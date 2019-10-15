@@ -4,19 +4,19 @@ header img {
 }
 body {
   height: 125vh;
-
+  background-color: lightblue;
   background-size: cover;
   font-family: sans-serif;
   margin-top: 80px;
-  padding: 30px;
+  padding: 60px;
 }
 
 main {
-  color: white;
+  color:blue;
 }
 
 header {
-  background-color: white;
+  background-color: blueviolet;
   position: fixed;
   top: 0;
   left: 0;
