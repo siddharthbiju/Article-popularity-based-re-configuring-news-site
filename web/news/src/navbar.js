@@ -1,8 +1,7 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Alert } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
-import PropTypes from "prop-types";
 
 class Navb extends React.Component {
   handleClickIndia = () => {

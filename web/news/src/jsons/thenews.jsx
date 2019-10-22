@@ -19,7 +19,7 @@ class News extends React.Component {
                 </h1>
               </div>
             );
-          else if (index === ll && postDetail.loc == location)
+          else if (index === ll && postDetail.loc === location)
             return (
               <div key={index}>
                 <h1 className="bor">
@@ -29,6 +29,7 @@ class News extends React.Component {
                 </h1>
               </div>
             );
+          return null;
         })}
       </div>
     );
