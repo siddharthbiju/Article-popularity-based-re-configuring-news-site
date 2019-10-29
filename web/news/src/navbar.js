@@ -14,6 +14,30 @@ class Navb extends React.Component {
   handleClickUS = () => {
     this.props.loo("US");
   };
+
+  handleClickEngland = () => {
+    this.props.loo("England");
+  };
+  handleClickGermany = () => {
+    this.props.loo("Germany");
+  };
+
+  handleClickJapan = () => {
+    this.props.loo("Japan");
+  };
+
+  handleClickChina = () => {
+    this.props.loo("China");
+  };
+
+  handleClickFrance = () => {
+    this.props.loo("France");
+  };
+
+  handleClickUAE = () => {
+    this.props.loo("UAE");
+  };
+
   render() {
     return (
       <div>
@@ -44,28 +68,36 @@ class Navb extends React.Component {
                 <NavDropdown.Item href="#" onClick={this.handleClickUS}>
                   USA
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item href="#" onClick={this.handleClickUAE}>
                   UAE
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item href="#" onClick={this.handleClickEngland}>
                   England
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item href="#" onClick={this.handleClickGermany}>
                   Germany
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item href="#" onClick={this.handleClickFrance}>
                   France
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item href="#" onClick={this.handleClickJapan}>
                   Japan
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item href="#" onClick={this.handleClickChina}>
                   China
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#">Sports</Nav.Link>
+              <Nav.Link
+                href="#"
+                onClick={this.handleClickIndia}
+                onClick={this.handleClickEngland}
+              >
+                Sports
+              </Nav.Link>
               <Nav.Link href="#">Finance</Nav.Link>
               <Nav.Link href="#">Lifestyle</Nav.Link>
+              <Nav.Link href="#">Technology</Nav.Link>
+              <Nav.Link href="#">Health</Nav.Link>
             </Nav>
             <Form inline>
               <FormControl
