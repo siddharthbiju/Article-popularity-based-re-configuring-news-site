@@ -15,7 +15,7 @@ class News extends React.Component {
                 <div id="wrap">
                   <h2 className="p">{postDetail.title}</h2>
                   <p>{postDetail.content}</p>
-                  <a href={postDetail.url}>{postDetail.url}</a>
+                  <a href={postDetail.url}>Visit website -></a>
                 </div>
               </div>
             );
@@ -25,7 +25,7 @@ class News extends React.Component {
                 <div id="wrap">
                   <h2 className="p">{postDetail.title}</h2>
                   <p>{postDetail.content}</p>
-                  <a href={postDetail.url}>{postDetail.url}</a>
+                  <a href={postDetail.url}>Visit website -></a>
                 </div>
               </div>
             );
