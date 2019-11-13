@@ -1,6 +1,7 @@
 import React from "react";
 import News from "./jsons/thenews";
 import Navb from "./navbar";
+import "./App.css";
 
 class App extends React.Component {
   state = { count: 10, location_current: "Global" };
@@ -14,8 +15,8 @@ class App extends React.Component {
       list.push(<News coun={i} lo={this.state.location_current} />);
     }
     return (
-      <div>
-        <Navb loo={this.set_loc} />
+      <div className="Main_design">
+        <Navb loo={this.set_loc} lo={this.state.location_current} />
         {list}
       </div>
     );
