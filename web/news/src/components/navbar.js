@@ -41,7 +41,7 @@ class Navb extends React.Component {
   render() {
     return (
       <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
           <Navbar.Brand
             href="#"
             onClick={() => {
@@ -58,40 +58,40 @@ class Navb extends React.Component {
             TOP NEWS
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle />
+          <Navbar.Collapse>
             <Nav className="mr-auto">
-              <NavDropdown title="LOCATION" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#" onClick={this.handleClickIndia}>
+              <NavDropdown title={this.props.lo}>
+                <NavDropdown.Item onClick={this.handleClickIndia}>
                   India
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUS}>
+                <NavDropdown.Item onClick={this.handleClickUS}>
                   USA
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickUAE}>
+                <NavDropdown.Item onClick={this.handleClickUAE}>
                   UAE
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickEngland}>
+                <NavDropdown.Item onClick={this.handleClickEngland}>
                   England
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickGermany}>
+                <NavDropdown.Item onClick={this.handleClickGermany}>
                   Germany
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickFrance}>
+                <NavDropdown.Item onClick={this.handleClickFrance}>
                   France
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickJapan}>
+                <NavDropdown.Item onClick={this.handleClickJapan}>
                   Japan
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={this.handleClickChina}>
+                <NavDropdown.Item onClick={this.handleClickChina}>
                   China
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="#">Finance</Nav.Link>
-              <Nav.Link href="#">Lifestyle</Nav.Link>
-              <Nav.Link href="#">Technology</Nav.Link>
-              <Nav.Link href="#">Health</Nav.Link>
+              <Nav.Link>Finance</Nav.Link>
+              <Nav.Link>Lifestyle</Nav.Link>
+              <Nav.Link>Technology</Nav.Link>
+              <Nav.Link>Health</Nav.Link>
             </Nav>
             <Form inline>
               <FormControl

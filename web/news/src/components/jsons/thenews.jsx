@@ -12,21 +12,21 @@ class News extends React.Component {
           if (index === ll && location === "Global")
             return (
               <div key={index}>
-                <h1 className="bor">
+                <div className="bor">
                   <h2 className="p">{postDetail.title}</h2>
                   <p>{postDetail.content}</p>
                   <a href={postDetail.url}>{postDetail.url}</a>
-                </h1>
+                </div>
               </div>
             );
           else if (index === ll && postDetail.loc === location)
             return (
               <div key={index}>
-                <h1 className="bor">
+                <div className="bor">
                   <h2 className="p">{postDetail.title}</h2>
                   <p>{postDetail.content}</p>
                   <a href={postDetail.url}>{postDetail.url}</a>
-                </h1>
+                </div>
               </div>
             );
           return null;
