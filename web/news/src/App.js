@@ -1,6 +1,6 @@
 import React from "react";
-import News from "./jsons/thenews";
-import Navb from "./navbar";
+import News from "./components/jsons/thenews";
+import Navb from "./components/navbar";
 import "./App.css";
 
 class App extends React.Component {
