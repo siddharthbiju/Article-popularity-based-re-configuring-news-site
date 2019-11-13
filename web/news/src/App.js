@@ -2,6 +2,7 @@ import React from "react";
 import News from "./components/jsons/thenews";
 import Navb from "./components/navbar";
 import "./App.css";
+import { Helmet } from "react-helmet";
 
 class App extends React.Component {
   state = { count: 10, location_current: "Global" };
@@ -15,7 +16,10 @@ class App extends React.Component {
       list.push(<News coun={i} lo={this.state.location_current} />);
     }
     return (
-      <div className="Main_design">
+      <div>
+        <Helmet>
+          <style>{"body { background-color: #fafafa; }"}</style>
+        </Helmet>
         <Navb loo={this.set_loc} lo={this.state.location_current} />
         {list}
       </div>

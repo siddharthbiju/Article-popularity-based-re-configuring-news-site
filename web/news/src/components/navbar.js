@@ -3,9 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { NavDropdown } from "react-bootstrap";
-import { Form } from "react-bootstrap";
-import { FormControl } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import "./navbar.css";
 
 class Navb extends React.Component {
   handleClickIndia = () => {
@@ -41,7 +39,7 @@ class Navb extends React.Component {
   render() {
     return (
       <div>
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar bg="light">
           <Navbar.Brand
             href="#"
             onClick={() => {
@@ -57,51 +55,41 @@ class Navb extends React.Component {
             />
             TOP NEWS
           </Navbar.Brand>
+        </Navbar>
+        <Navbar bg="light">
+          <Nav className="pos">
+            <NavDropdown title={this.props.lo}>
+              <NavDropdown.Item onClick={this.handleClickIndia}>
+                India
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickUS}>
+                USA
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickUAE}>
+                UAE
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickEngland}>
+                England
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickGermany}>
+                Germany
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickFrance}>
+                France
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickJapan}>
+                Japan
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={this.handleClickChina}>
+                China
+              </NavDropdown.Item>
+            </NavDropdown>
 
-          <Navbar.Toggle />
-          <Navbar.Collapse>
-            <Nav className="mr-auto">
-              <NavDropdown title={this.props.lo}>
-                <NavDropdown.Item onClick={this.handleClickIndia}>
-                  India
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickUS}>
-                  USA
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickUAE}>
-                  UAE
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickEngland}>
-                  England
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickGermany}>
-                  Germany
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickFrance}>
-                  France
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickJapan}>
-                  Japan
-                </NavDropdown.Item>
-                <NavDropdown.Item onClick={this.handleClickChina}>
-                  China
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              <Nav.Link>Finance</Nav.Link>
-              <Nav.Link>Lifestyle</Nav.Link>
-              <Nav.Link>Technology</Nav.Link>
-              <Nav.Link>Health</Nav.Link>
-            </Nav>
-            <Form inline>
-              <FormControl
-                type="text"
-                placeholder="Search for topics & sources"
-                className="mr-sm-2"
-              />
-              <Button variant="info">Search</Button>
-            </Form>
-          </Navbar.Collapse>
+            <Nav.Link>Finance</Nav.Link>
+            <Nav.Link>Lifestyle</Nav.Link>
+            <Nav.Link>Technology</Nav.Link>
+            <Nav.Link>Health</Nav.Link>
+          </Nav>
         </Navbar>
       </div>
     );
