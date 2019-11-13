@@ -87,13 +87,7 @@ class Navb extends React.Component {
                   China
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link
-                href="#"
-                onClick={this.handleClickIndia}
-                onClick={this.handleClickEngland}
-              >
-                Sports
-              </Nav.Link>
+
               <Nav.Link href="#">Finance</Nav.Link>
               <Nav.Link href="#">Lifestyle</Nav.Link>
               <Nav.Link href="#">Technology</Nav.Link>
