@@ -8,13 +8,13 @@ class News extends React.Component {
     const ll = this.props.coun;
     const location = this.props.lo;
     return (
-      <Container>
-       <Row>
       <div>
+        <Container>
         <Col>
         {PostData.map((postDetail, index) => {
           if (index === ll && location === "Global")
             return (
+              <Row>
               <th>
               <div key={index}>
                 <h1 className="bor">
@@ -24,6 +24,7 @@ class News extends React.Component {
                 </h1>
               </div>
               </th>
+              </Row>
             );
           else if (index === ll && postDetail.loc === location)
             return (
@@ -38,9 +39,8 @@ class News extends React.Component {
           return null;
         })}
      </Col>
+     </Container>
       </div>
-      </Row>
-      </Container>
     );
   }
 }

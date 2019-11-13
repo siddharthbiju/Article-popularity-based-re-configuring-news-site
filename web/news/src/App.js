@@ -2,6 +2,7 @@ import React from "react";
 import News from "./jsons/thenews";
 import Navb from "./navbar";
 
+
 class App extends React.Component {
   state = { count: 2 };
   render() {
