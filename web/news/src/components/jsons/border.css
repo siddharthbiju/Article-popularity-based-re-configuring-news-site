@@ -1,10 +1,20 @@
-.bor {
-  background-color: #ffffff;
-  border: 2px solid #e6e6e6;
-  padding: 20px;
-  margin: 20px;
-  font-size: 20px;
+#wrap {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding: 15px;
 }
+
 .p {
   font-size: xx-large;
+}
+
+.icon {
+  color: blue;
+}
+.icon:hover {
+  color: red;
 }
