@@ -1,4 +1,4 @@
-#wrap {
+.wrap {
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   width: 80%;
@@ -6,6 +6,37 @@
   margin-bottom: 20px;
   background: #ffffff;
   padding: 15px;
+}
+
+.wrap:hover {
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #888888;
+}
+
+.wrap2 {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-right: 15px;
+  background: #ffffff;
+  padding: 15px;
+}
+
+.wrap2:hover {
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #888888;
+}
+
+.wrap3 {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+
+  background: #ffffff;
+  padding: 15px;
+}
+
+.wrap3:hover {
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px #888888;
 }
 
 .p {
