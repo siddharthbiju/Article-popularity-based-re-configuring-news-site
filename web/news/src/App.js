@@ -7,34 +7,25 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 
 class App extends React.Component {
-  state = { count: 10, location_current: "Global", showPopup: false };
+  state = {
+    count: 10,
+    location_current: "Global",
+    showPopup: false,
+    lis1coun: 0
+  };
 
   set_loc = set => {
     this.setState({ location_current: set });
   };
 
+  set_lis1loc = () => {
+    alert("called");
+    var p = this.state.lis1coun;
+    p++;
+    this.setState({ lis1coun: p });
+  };
+
   render() {
-    const list1 = [];
-    const list2 = [];
-    var i;
-    for (i = 2; i < this.state.count; i++) {
-      list2.push(
-        <News
-          coun={i}
-          lo={this.state.location_current}
-          popup={this.togglePopup}
-        />
-      );
-    }
-    for (i = 0; i < 2; i++) {
-      list1.push(
-        <Top
-          coun={i}
-          lo={this.state.location_current}
-          popup={this.togglePopup}
-        />
-      );
-    }
     return (
       <div>
         <Helmet>
@@ -45,13 +36,14 @@ class App extends React.Component {
         <div className="trend">
           <p>Top stories</p>
         </div>
-
-        <div className="nn">{list1}</div>
-
+        ;
+        <div>
+          <Top lo={this.state.location_current} />
+        </div>
         <div className="latest">
           <p>Latest news</p>
         </div>
-        {list2}
+        <News lo={this.state.location_current} />
       </div>
     );
   }
