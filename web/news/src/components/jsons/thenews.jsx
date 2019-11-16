@@ -3,32 +3,60 @@ import PostData from "./new.json";
 import "./border.css";
 
 class News extends React.Component {
+  state = { showPopup: false };
+
   render() {
-    const ll = this.props.coun;
+    let counts = 0;
+    var ss;
     const location = this.props.lo;
     return (
       <div>
         {PostData.map((postDetail, index) => {
-          if (index === ll && location === "Global")
-            return (
-              <div key={index}>
-                <div id="wrap">
-                  <h2 className="p">{postDetail.title}</h2>
-                  <p>{postDetail.content}</p>
-                  <a href={postDetail.url}>Visit website -></a>
+          if (location === "Global") {
+            counts++;
+            if (counts > 2) {
+              ss = postDetail.url.split("https://")[1];
+              ss = ss.substring(0, ss.indexOf("com/"));
+              ss = ss + "com";
+              return (
+                <div key={index}>
+                  <div className="wrap">
+                    <h2 className="p">{postDetail.title}</h2>
+                    <p>
+                      {postDetail.content.substring(0, 200) + "......... "}
+                      <a href={postDetail.url} class="footnote">
+                        {" "}
+                        read more
+                      </a>
+                    </p>
+                    <a href={postDetail.url}>{ss}</a>
+                  </div>
                 </div>
-              </div>
-            );
-          else if (index === ll && postDetail.loc === location)
-            return (
-              <div key={index}>
-                <div id="wrap">
-                  <h2 className="p">{postDetail.title}</h2>
-                  <p>{postDetail.content}</p>
-                  <a href={postDetail.url}>Visit website -></a>
+              );
+            }
+          } else if (postDetail.loc === location) {
+            counts++;
+            if (counts > 2) {
+              ss = postDetail.url.split("https://")[1];
+              ss = ss.substring(0, ss.indexOf("com/"));
+              ss = ss + "com";
+              return (
+                <div key={index}>
+                  <div className="wrap">
+                    <h2 className="p">{postDetail.title}</h2>
+                    <p>
+                      {postDetail.content.substring(0, 200) + "......... "}
+                      <a href={postDetail.url} class="footnote">
+                        {" "}
+                        read more
+                      </a>
+                    </p>
+                    <a href={postDetail.url}>{ss}</a>
+                  </div>
                 </div>
-              </div>
-            );
+              );
+            }
+          }
           return null;
         })}
       </div>

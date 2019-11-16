@@ -1,4 +1,4 @@
-#wrap {
+.wrap {
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   width: 80%;
@@ -6,15 +6,40 @@
   margin-bottom: 20px;
   background: #ffffff;
   padding: 15px;
+  box-shadow: 0.2px 0.2px #888888;
+}
+
+.wrap2 {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-right: 15px;
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: 0.2px 0.2px #888888;
+}
+
+.wrap3 {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px #888888;
+  background: #ffffff;
+  padding: 15px;
 }
 
 .p {
   font-size: xx-large;
 }
-
-.icon {
-  color: blue;
+.trend {
+  margin: auto;
+  width: 80%;
+  font-size: x-large;
+  text-decoration: none;
+  border-bottom: 10px solid red;
+  margin-bottom: 20px;
 }
-.icon:hover {
-  color: red;
+.nn {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
 }

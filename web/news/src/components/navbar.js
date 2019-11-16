@@ -41,7 +41,6 @@ class Navb extends React.Component {
       <div>
         <Navbar bg="light">
           <Navbar.Brand
-            href="#"
             onClick={() => {
               this.props.loo("Global");
             }}
@@ -88,7 +87,6 @@ class Navb extends React.Component {
             <Nav.Link>Finance</Nav.Link>
             <Nav.Link>Lifestyle</Nav.Link>
             <Nav.Link>Technology</Nav.Link>
-            <Nav.Link>Health</Nav.Link>
           </Nav>
         </Navbar>
       </div>
