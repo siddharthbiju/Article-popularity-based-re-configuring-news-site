@@ -29,7 +29,6 @@ class App extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Trending News</title>
           <style>{"body { background-color: #fafafa; }"}</style>
         </Helmet>
         <Navb loo={this.set_loc} lo={this.state.location_current} />
