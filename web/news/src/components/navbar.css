@@ -1,0 +1,11 @@
+.navbar-brand {
+  margin: 0 auto;
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+.pos {
+  margin: 0 auto;
+}

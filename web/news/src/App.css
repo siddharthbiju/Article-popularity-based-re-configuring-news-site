@@ -1,0 +1,32 @@
+.Main_design {
+  background-color: #fafafa;
+}
+
+.App-header {
+  background-color: #fafafa;
+}
+.nn {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.trend {
+  margin: auto;
+  width: 80%;
+  font-size: x-large;
+  text-decoration: none;
+  border-bottom: 10px solid red;
+  margin-bottom: 20px;
+}
+
+.latest {
+  margin: auto;
+  width: 80%;
+  font-size: x-large;
+  text-decoration: none;
+  border-bottom: 10px solid #ffa500;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
