@@ -19,7 +19,7 @@ while i<rowc:
 	s=0
 	x=data[i]['title']
 	print(x)
-	for url in search(x,stop=90):
+	for url in search(x,stop=50):
 		s=s+1
 	print 'hits:',s
 	#to store position of news
