@@ -6,6 +6,7 @@
   cursor: pointer;
 }
 
-.pos {
-  margin: 0 auto;
+#nav-dropdown {
+  color: black;
+  background-color: white;
 }

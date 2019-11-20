@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar } from "react-bootstrap";
-import { Nav } from "react-bootstrap";
 import { NavDropdown } from "react-bootstrap";
 import "./navbar.css";
 
@@ -11,6 +10,10 @@ class Navb extends React.Component {
   };
   handleClickUS = () => {
     this.props.loo("US");
+  };
+
+  handleClickGlobal = () => {
+    this.props.loo("Global");
   };
 
   handleClickEngland = () => {
@@ -38,7 +41,7 @@ class Navb extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="cl">
         <Navbar bg="light">
           <Navbar.Brand
             onClick={() => {
@@ -54,40 +57,35 @@ class Navb extends React.Component {
             />
             TOP NEWS
           </Navbar.Brand>
-        </Navbar>
-        <Navbar bg="light">
-          <Nav className="pos">
-            <NavDropdown title={this.props.lo}>
-              <NavDropdown.Item onClick={this.handleClickIndia}>
-                India
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickUS}>
-                USA
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickUAE}>
-                UAE
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickEngland}>
-                England
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickGermany}>
-                Germany
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickFrance}>
-                France
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickJapan}>
-                Japan
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickChina}>
-                China
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            <Nav.Link>Finance</Nav.Link>
-            <Nav.Link>Lifestyle</Nav.Link>
-            <Nav.Link>Technology</Nav.Link>
-          </Nav>
+          <NavDropdown title={this.props.lo} id="nav-dropdown">
+            <NavDropdown.Item onClick={this.handleClickGlobal}>
+              Global
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickIndia}>
+              India
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickUS}>
+              USA
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickUAE}>
+              UAE
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickEngland}>
+              England
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickGermany}>
+              Germany
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickFrance}>
+              France
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickJapan}>
+              Japan
+            </NavDropdown.Item>
+            <NavDropdown.Item onClick={this.handleClickChina}>
+              China
+            </NavDropdown.Item>
+          </NavDropdown>
         </Navbar>
       </div>
     );
