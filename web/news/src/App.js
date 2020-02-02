@@ -34,7 +34,7 @@ class App extends React.Component {
     return (
       <div>
         <Helmet>
-          <style>{"body { background-color: #fafafa; }"}</style>
+          <style>{"body { background-color: #F8F9FA; }"}</style>
         </Helmet>
         <Navb
           loo={this.set_loc}
