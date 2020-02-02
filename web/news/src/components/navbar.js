@@ -36,6 +36,18 @@ class Navb extends React.Component {
     this.props.loo("UAE");
   };
 
+  handleClickLatest = () => {
+    this.props.cat("Latest");
+  };
+
+  handleClickSports = () => {
+    this.props.cat("Sports");
+  };
+
+  handleClickTechnology = () => {
+    this.props.cat("Technology");
+  };
+
   render() {
     return (
       <div>
@@ -43,6 +55,7 @@ class Navb extends React.Component {
           <Navbar.Brand
             onClick={() => {
               this.props.loo("Global");
+              this.props.cat("All");
             }}
           >
             <img
@@ -84,9 +97,9 @@ class Navb extends React.Component {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link>Finance</Nav.Link>
-            <Nav.Link>Lifestyle</Nav.Link>
-            <Nav.Link>Technology</Nav.Link>
+            <Nav.Link onClick={this.handleClickLatest}>Latest</Nav.Link>
+            <Nav.Link onClick={this.handleClickSports}>Sports</Nav.Link>
+            <Nav.Link onClick={this.handleClickTechnology}>Technology</Nav.Link>
           </Nav>
         </Navbar>
       </div>

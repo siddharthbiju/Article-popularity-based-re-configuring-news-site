@@ -12,6 +12,7 @@ class Top extends React.Component {
     let ll = 0;
     var ss;
     const location = this.props.lo;
+    const category = this.props.cate;
     var cl;
     if (ll === 0) {
       cl = "wrap2";
@@ -22,50 +23,52 @@ class Top extends React.Component {
     return (
       <div className="nn">
         {PostData.map((postDetail, index) => {
-          if (location === "Global" && ll < 2) {
-            ss = postDetail.url.split("https://")[1];
-            ss = ss.substring(0, ss.indexOf("com/"));
-            ss = ss + "com";
-            ll++;
-            return (
-              <div key={index}>
-                <div className={cl}>
-                  <h2 className="p">{postDetail.title}</h2>
-                  <p>
-                    {postDetail.content.substring(0, 200) + "......... "}
-                    <a href={postDetail.url} class="footnote">
-                      {" "}
-                      read more
-                    </a>
-                  </p>
+          if (postDetail.categor === category || category === "All") {
+            if (location === "Global" && ll < 2) {
+              ss = postDetail.url.split("https://")[1];
+              ss = ss.substring(0, ss.indexOf("com/"));
+              ss = ss + "com";
+              ll++;
+              return (
+                <div key={index}>
+                  <div className={cl}>
+                    <h2 className="p">{postDetail.title}</h2>
+                    <p>
+                      {postDetail.content.substring(0, 200) + "......... "}
+                      <a href={postDetail.url} class="footnote">
+                        {" "}
+                        read more
+                      </a>
+                    </p>
 
-                  <a href={postDetail.url}>{ss}</a>
+                    <a href={postDetail.url}>{ss}</a>
+                  </div>
                 </div>
-              </div>
-            );
-          } else if (postDetail.loc === location && ll < 2) {
-            ss = postDetail.url.split("https://")[1];
-            ss = ss.substring(0, ss.indexOf("com/"));
-            ss = ss + "com";
-            ll++;
-            return (
-              <div key={index}>
-                <div className={cl}>
-                  <h2 className="p">{postDetail.title}</h2>
-                  <p>
-                    {postDetail.content.substring(0, 200) + "......... "}
-                    <a href={postDetail.url} class="footnote">
-                      {" "}
-                      read more
-                    </a>
-                  </p>
+              );
+            } else if (postDetail.loc === location && ll < 2) {
+              ss = postDetail.url.split("https://")[1];
+              ss = ss.substring(0, ss.indexOf("com/"));
+              ss = ss + "com";
+              ll++;
+              return (
+                <div key={index}>
+                  <div className={cl}>
+                    <h2 className="p">{postDetail.title}</h2>
+                    <p>
+                      {postDetail.content.substring(0, 200) + "......... "}
+                      <a href={postDetail.url} class="footnote">
+                        {" "}
+                        read more
+                      </a>
+                    </p>
 
-                  <a href={postDetail.url}>{ss}</a>
+                    <a href={postDetail.url}>{ss}</a>
+                  </div>
                 </div>
-              </div>
-            );
+              );
+            }
+            return null;
           }
-          return null;
         })}
       </div>
     );

@@ -11,11 +11,16 @@ class App extends React.Component {
     count: 10,
     location_current: "Global",
     showPopup: false,
+    category: "All",
     lis1coun: 0
   };
 
   set_loc = set => {
     this.setState({ location_current: set });
+  };
+
+  set_cat = set => {
+    this.setState({ category: set });
   };
 
   set_lis1loc = () => {
@@ -31,18 +36,21 @@ class App extends React.Component {
         <Helmet>
           <style>{"body { background-color: #fafafa; }"}</style>
         </Helmet>
-        <Navb loo={this.set_loc} lo={this.state.location_current} />
+        <Navb
+          loo={this.set_loc}
+          lo={this.state.location_current}
+          cat={this.set_cat}
+        />
         <div className="trend">
           <p>Top stories</p>
         </div>
-        ;
         <div>
-          <Top lo={this.state.location_current} />
+          <Top lo={this.state.location_current} cate={this.state.category} />
         </div>
         <div className="latest">
           <p>Latest news</p>
         </div>
-        <News lo={this.state.location_current} />
+        <News lo={this.state.location_current} cate={this.state.category} />
       </div>
     );
   }
