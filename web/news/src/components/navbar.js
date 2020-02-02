@@ -51,7 +51,7 @@ class Navb extends React.Component {
   render() {
     return (
       <div>
-        <Navbar bg="light">
+        <Navbar bg="light" sticky="top">
           <Navbar.Brand
             onClick={() => {
               this.props.loo("Global");
