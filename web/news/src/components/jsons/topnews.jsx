@@ -67,8 +67,8 @@ class Top extends React.Component {
                 </div>
               );
             }
-            return null;
           }
+          return null;
         })}
       </div>
     );

@@ -59,8 +59,8 @@ class News extends React.Component {
                 );
               }
             }
-            return null;
           }
+          return null;
         })}
       </div>
     );
