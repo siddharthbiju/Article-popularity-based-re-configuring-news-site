@@ -91,20 +91,7 @@ class Navb extends React.Component {
               <NavDropdown.Item onClick={this.handleClickEngland}>
                 England
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickGermany}>
-                Germany
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickFrance}>
-                France
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickJapan}>
-                Japan
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={this.handleClickChina}>
-                China
-              </NavDropdown.Item>
             </NavDropdown>
-
             <Nav.Link onClick={this.handleClickLatest}>Latest</Nav.Link>
             <Nav.Link onClick={this.handleClickSports}>Sports</Nav.Link>
             <Nav.Link onClick={this.handleClickTechnology}>Technology</Nav.Link>
