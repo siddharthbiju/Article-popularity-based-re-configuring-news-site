@@ -7,18 +7,21 @@ class Top extends React.Component {
     alert("saf");
     this.props.print();
   };
-
+  cdect = value => {
+    let ll = value;
+    var cl;
+    if (ll < 2) {
+      cl = "wrap2";
+    } else {
+      cl = "wrap3";
+    }
+    return cl;
+  };
   render() {
     let ll = 0;
     var ss;
     const location = this.props.lo;
     const category = this.props.cate;
-    var cl;
-    if (ll === 0) {
-      cl = "wrap2";
-    } else {
-      cl = "wrap3";
-    }
 
     return (
       <div className="nn">
@@ -31,7 +34,7 @@ class Top extends React.Component {
               ll++;
               return (
                 <div key={index}>
-                  <div className={cl}>
+                  <div className={this.cdect(ll)}>
                     <h2 className="p">{postDetail.title}</h2>
                     <p>
                       {postDetail.content.substring(0, 200) + "......... "}
@@ -52,7 +55,7 @@ class Top extends React.Component {
               ll++;
               return (
                 <div key={index}>
-                  <div className={cl}>
+                  <div>
                     <h2 className="p">{postDetail.title}</h2>
                     <p>
                       {postDetail.content.substring(0, 200) + "......... "}

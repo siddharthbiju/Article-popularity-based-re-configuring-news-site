@@ -8,32 +8,40 @@ import "./navbar.css";
 class Navb extends React.Component {
   handleClickIndia = () => {
     this.props.loo("India");
+    this.props.cat("All");
   };
   handleClickUS = () => {
     this.props.loo("US");
+    this.props.cat("All");
   };
 
   handleClickEngland = () => {
     this.props.loo("England");
+    this.props.cat("All");
   };
   handleClickGermany = () => {
     this.props.loo("Germany");
+    this.props.cat("All");
   };
 
   handleClickJapan = () => {
     this.props.loo("Japan");
+    this.props.cat("All");
   };
 
   handleClickChina = () => {
     this.props.loo("China");
+    this.props.cat("All");
   };
 
   handleClickFrance = () => {
     this.props.loo("France");
+    this.props.cat("All");
   };
 
   handleClickUAE = () => {
     this.props.loo("UAE");
+    this.props.cat("All");
   };
 
   handleClickLatest = () => {
