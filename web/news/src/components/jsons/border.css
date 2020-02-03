@@ -30,6 +30,12 @@
     background: #ffffff;
     padding: 15px;
   }
+  .nn {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -48,5 +54,11 @@
     box-shadow: 0.2px 0.2px #888888;
     background: #ffffff;
     padding: 15px;
+  }
+
+  .nn {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
   }
 }

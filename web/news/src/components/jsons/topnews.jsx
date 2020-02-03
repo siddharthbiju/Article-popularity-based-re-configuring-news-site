@@ -55,7 +55,7 @@ class Top extends React.Component {
               ll++;
               return (
                 <div key={index}>
-                  <div>
+                  <div className={this.cdect(ll)}>
                     <h2 className="p">{postDetail.title}</h2>
                     <p>
                       {postDetail.content.substring(0, 200) + "......... "}
