@@ -230,13 +230,7 @@
     "url": "https://www.pymnts.com/unattended-retail/2020/usa-technologies-unattended-retail-age-of-ubiquity/",
     "content": "Evolution is the hallmark of everything that survives over a long period of time — and so it should come as no surprise that unattended retail has evolved, too, over more than a century since the first coin-operated vending machines made their debut in the late 1800s."
   },
-  {
-    "title": "U19 World Cup Semifinal: High-intensity clash on the cards as India meet Pakistan",
-    "loc": "India",
-    "categor": "Sports",
-    "url": "https://www.indiatoday.in/sports/cricket/story/u19-world-cup-india-vs-pakistan-semifinal-priyam-garg-yashasvi-jaiswal-1642978-2020-02-03",
-    "content": "U19 World Cup: The last time the two were up against each other in the 2018 World Cup semi-final, now India senior cricketer Shubman Gill notched up an unbeaten century to set a 273-run total for India.   "
-  },
+
   {
     "title": "KL Rahul keeps up the good work to push MS Dhoni, Rishabh Pant debate to backseat",
     "loc": "India",
@@ -271,5 +265,26 @@
     "categor": "Technology",
     "url": "https://www.indiatoday.in/technology/news/story/budget-2020-fm-sitharaman-announces-scheme-to-boost-local-manufacturing-of-cell-phones-will-the-iphone-become-more-cheaper-1642286-2020-02-01",
     "content": "Budget Speech 2020 delivered by FM Sitharaman outlined local manufacturing of cell phones is important and should be boosted."
+  },
+  {
+    "title": "U19 World Cup Semifinal: High-intensity clash on the cards as India meet Pakistan",
+    "loc": "India",
+    "categor": "Sports",
+    "url": "https://www.nbcnews.com/politics/2020-election/live-blog/iowa-caucuses-live-updates-2020-democrats-make-their-final-pitches-n1128596",
+    "content": "The last time the two were up against each other in the 2018 World Cup semi-final, now India senior cricketer Shubman Gill notched up an unbeaten century to set a 273-run total for India."
+  },
+  {
+    "title": "Yet another Windows 10 update is causing problems",
+    "loc": "India",
+    "categor": "Technology",
+    "url": "https://betanews.com/2020/02/03/windows-10-kb4532695-problems/",
+    "content": "Microsoft released the KB4532695 update last week to address problems with Explorer which were introduced by the November 2019 Update. But this update has itself been found to cause issues, with users complaining of BSoDs, audio problems and more."
+  },
+  {
+    "title": "PAK vs BAN: Bangladesh announce squad for Rawalpindi Test",
+    "loc": "India",
+    "categor": "Sports",
+    "url": "https://crickettimes.com/2020/02/pak-vs-ban-bangladesh-announce-squad-for-rawalpindi-test/",
+    "content": "The Bangladesh Cricket Board (BCB) recently announced their Test squad for the upcoming Rawalpindi Test match, starting February 7. The second Test match will be played from April 5 at National Stadium, Karachi."
   }
 ]

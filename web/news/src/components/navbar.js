@@ -46,6 +46,7 @@ class Navb extends React.Component {
 
   handleClickLatest = () => {
     this.props.cat("Latest");
+    this.props.cat("All");
   };
 
   handleClickSports = () => {
