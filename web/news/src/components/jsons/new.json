@@ -1,10 +1,17 @@
 [
   {
-    "title": "Cheap meat hard for German farmers to swallow",
-    "loc": "Germany",
+    "title": "Coronavirus in the U.S.: 11 Confirmed Cases, More Tests Underway",
+    "loc": "US",
     "categor": "Latest",
-    "url": "https://www.dw.com/en/cheap-meat-hard-for-german-farmers-to-swallow/a-52233453",
-    "content": "Meat is getting cheaper and cheaper in Germany and while customers profit from the trend, farmers and environmentalists are angry over discount supermarket prices. The government wants to talk with farmers and retailers."
+    "url": "https://www.nytimes.com/2020/02/03/us/coronavirus-united-states-cases.html",
+    "content": "Though the vast majority of coronavirus cases have been in China, where hundreds of people have died and thousands more have been diagnosed, public health officials in the United States are racing to stop the disease from spreading widely in this country."
+  },
+  {
+    "title": "Coronavirus: China accuses US of causing panic and 'spreading fear'",
+    "loc": "China",
+    "categor": "Latest",
+    "url": "https://www.bbc.com/news/world-asia-china-51353279",
+    "content": "The Chinese government has accused the US of causing 'panic' in its response to the deadly coronavirus outbreak."
   },
   {
     "title": "Iowa caucus live updates: Results and analysis from the first 2020 Democratic contest",
@@ -54,13 +61,6 @@
     "categor": "Technology",
     "url": "https://www.japantimes.co.jp/news/2020/01/21/business/tech/japan-considering-fee-system-5g-networks-subsidize-launch-services-rural-areas/#.XjhHZPfhWUk",
     "content": "The communications ministry is considering introducing a system to charge internet users a fee so that fiber-optic infrastructure for 5G wireless networks can be constructed and maintained across the country, informed sources said Tuesday."
-  },
-  {
-    "title": "Coronavirus: China accuses US of causing panic and 'spreading fear'",
-    "loc": "China",
-    "categor": "Latest",
-    "url": "https://www.bbc.com/news/world-asia-china-51353279",
-    "content": "The Chinese government has accused the US of causing 'panic' in its response to the deadly coronavirus outbreak."
   },
   {
     "title": "BBC Indian Sportswoman of the Year nominees revealed",
@@ -210,13 +210,6 @@
     "content": "Cybersecurity experts have long railed against voting apps, saying that any kind of online voting unnecessarily increases security risks."
   },
   {
-    "title": "Coronavirus in the U.S.: 11 Confirmed Cases, More Tests Underway",
-    "loc": "US",
-    "categor": "Latest",
-    "url": "https://www.nytimes.com/2020/02/03/us/coronavirus-united-states-cases.html",
-    "content": "Though the vast majority of coronavirus cases have been in China, where hundreds of people have died and thousands more have been diagnosed, public health officials in the United States are racing to stop the disease from spreading widely in this country."
-  },
-  {
     "title": "USA Field Hockey to officially relocate from Spooky Nook Sports ",
     "loc": "US",
     "categor": "Sports",
@@ -286,5 +279,12 @@
     "categor": "Sports",
     "url": "https://crickettimes.com/2020/02/pak-vs-ban-bangladesh-announce-squad-for-rawalpindi-test/",
     "content": "The Bangladesh Cricket Board (BCB) recently announced their Test squad for the upcoming Rawalpindi Test match, starting February 7. The second Test match will be played from April 5 at National Stadium, Karachi."
+  },
+  {
+    "title": "Cheap meat hard for German farmers to swallow",
+    "loc": "Germany",
+    "categor": "Latest",
+    "url": "https://www.dw.com/en/cheap-meat-hard-for-german-farmers-to-swallow/a-52233453",
+    "content": "Meat is getting cheaper and cheaper in Germany and while customers profit from the trend, farmers and environmentalists are angry over discount supermarket prices. The government wants to talk with farmers and retailers."
   }
 ]
