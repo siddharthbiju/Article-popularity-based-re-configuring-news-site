@@ -5,8 +5,7 @@
     "categor": "Latest",
     "url": "https://www.dw.com/en/cheap-meat-hard-for-german-farmers-to-swallow/a-52233453",
     "content": "Meat is getting cheaper and cheaper in Germany and while customers profit from the trend, farmers and environmentalists are angry over discount supermarket prices. The government wants to talk with farmers and retailers."
-  }
-  ,
+  },
   {
     "title": "Iowa caucus live updates: Results and analysis from the first 2020 Democratic contest",
     "loc": "US",
@@ -136,56 +135,99 @@
   {
     "title": "Dubai government sports organisations under Dubai Sports Council’s supervision",
     "loc": "UAE",
-    "categor": "Latest",
+    "categor": "Technology",
     "url": "https://wam.ae/en/details/1395302816069",
     "content": "DUBAI, 14th January, 2020 (WAM) -- In his capacity as Ruler of Dubai, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of UAE, has issued Decree No. 01 of 2020 placing Dubai government sports organisations under the supervision of Dubai Sports Council."
-  }
-,
+  },
+  {
+    "title": "World elite gear up for the RAK Half Marathon",
+    "loc": "UAE",
+    "categor": "Sports",
+    "url": "https://sport360.com/article/regional-article/341434/world-elite-gear-up-for-the-rak-half-marathon",
+    "content": "Ras Al Khaimah Half Marathon 2020 – the world’s fastest half marathon – aims to once again set a lightning pace, hosting a lineup of world-class elite runners for its 14th edition on Friday, 21st February 2020."
+  },
+  {
+    "title": "Emirates Literature fest begins today in Dubai",
+    "loc": "UAE",
+    "categor": "Technology",
+    "url": "https://www.khaleejtimes.com/uae/dubai/emirates-literature-fest-begins-today-in-dubai",
+    "content": "This year's Emirates Airline Festival of Literature is set to begin today in Dubai, featuring 206 authors from 43 countries, on top of a strong contingent of home-grown talent - the largest number ever recorded for the celebration."
+  },
+  {
+    "title": "U.A.E. Finds World’s Biggest Gas Field Since 2005",
+    "loc": "UAE",
+    "categor": "Latest",
+    "url": "https://www.bloomberg.com/news/articles/2020-02-03/abu-dhabi-dubai-make-gas-discovery-in-push-for-self-sufficiency",
+    "content": "Dubai and Abu Dhabi made what could be the world’s largest natural gas discovery since 2005 as the two biggest sheikhdoms in the United Arab Emirates aim to push the country to energy self sufficiency."
+  },
+  {
+    "title": "Dubai Economy, Amazon explore ways to boost data",
+    "loc": "UAE",
+    "categor": "Technology",
+    "url": "https://www.khaleejtimes.com/dubai-economy-and-amazon-explore-ways-to-strengthen-data",
+    "content": "Sami Al Qamzi, director-general of Dubai Economy, and Michael Punke, vice-president of Public Policy at Amazon Web Services, held discussions on developing co-operation frameworks and enhancing Amazon's contribution to strategic digital transformation plans in Dubai and the UAE. Held in the presence of Fahad Al Gergawi, CEO of Dubai FDI, the discussions also included prospects for strategic co-operation in leveraging Dubai's strengths as a global business hub to promote innovation and entrepreneurship."
+  },
   {
     "title": "FMIA Super Bowl LIV: How the Chiefs ‘Put the Stinger’ in the 49ers and The Backstory on 2-3 Jet Chip Wasp",
     "loc": "US",
     "categor": "Sports",
     "url": "https://profootballtalk.nbcsports.com/2020/02/03/chiefs-win-super-bowl-liv-wasp-play-fmia-peter-king/?cid=nbcsports",
     "content": " Tyreek Hill, rushing through his last interview of the night near his locker, heard a mystery man behind him making an exultant guttural noise. Hill couldn’t escape Patrick Mahomes’ clutches. Mahomes bear-hugged him from behind, almost lifting the 180-pound Hill off the ground."
-  }
-,
+  },
   {
     "title": "Amazon workers protest proposal to raise bar for shareholder resolutions. ",
     "loc": "US",
     "categor": "Technology",
     "url": "https://www.nbcnews.com/news/all/amazon-workers-protest-proposal-raise-bar-shareholder-resolutions-n1129216",
     "content": "An employee-led group says an SEC proposal would discriminate against smaller investors and employees awarded company stock."
-  }
-,
+  },
   {
     "title": "Report: Rockets trying to dodge luxury tax before trade deadline",
     "loc": "US",
     "categor": "Sports",
     "url": "https://nba.nbcsports.com/2020/02/03/report-rockets-trying-to-dodge-luxury-tax-before-trade-deadline/",
     "content": "After the Rockets got eliminated last season, owner Tilman Fertitta put on a big show about his commitment to winning."
-  }
-  ,
+  },
   {
     "title": "Brian Wilson wants fans to boycott Beach Boys over show at hunting event with Trump Jr. ",
     "loc": "US",
     "categor": "Latest",
     "url": "https://www.nbcnews.com/news/us-news/brian-wilson-wants-fans-boycott-beach-boys-over-show-hunting-n1129386",
     "content": "The touring group is set to perform this week at the Safari Club International’s annual convention in Nevada."
-  }
-  ,
+  },
   {
     "title": "Clint Bowyer goes all out after Kansas City Chiefs win Super Bowl ",
     "loc": "US",
     "categor": "Sports",
     "url": "https://nascar.nbcsports.com/2020/02/03/clint-bowyer-super-bowl-chiefs-nascar/",
     "content": "Depending on how many beers he had, Clint Bowyer will likely never forget the events of Feb. 2, 2020."
-  }
-  ,
+  },
   {
     "title": "West Virginia plans to make smartphone voting available to disabled people for 2020 election",
     "loc": "US",
     "categor": "Technology",
     "url": "https://www.nbcnews.com/tech/security/west-virginia-plans-make-smartphone-voting-available-disabled-people-2020-n1127931",
     "content": "Cybersecurity experts have long railed against voting apps, saying that any kind of online voting unnecessarily increases security risks."
+  },
+  {
+    "title": "Coronavirus in the U.S.: 11 Confirmed Cases, More Tests Underway",
+    "loc": "US",
+    "categor": "Latest",
+    "url": "https://www.nytimes.com/2020/02/03/us/coronavirus-united-states-cases.html",
+    "content": "Though the vast majority of coronavirus cases have been in China, where hundreds of people have died and thousands more have been diagnosed, public health officials in the United States are racing to stop the disease from spreading widely in this country."
+  },
+  {
+    "title": "USA Field Hockey to officially relocate from Spooky Nook Sports ",
+    "loc": "US",
+    "categor": "Sports",
+    "url": "https://lancasteronline.com/sports/usa-field-hockey-to-officially-relocate-from-spooky-nook-sports/article_f9cd7f1e-46b8-11ea-ad1a-c352cf4736eb.html",
+    "content": "The U.S. women's field hockey team will be relocating to a new training center, Spooky Nook and USA Field Hockey announced in a joint statement on Monday."
+  },
+  {
+    "title": "USAT: Unattended Retail’s (Dawning) Age Of Self-Serve Ubiquity",
+    "loc": "US",
+    "categor": "Technology",
+    "url": "https://www.pymnts.com/unattended-retail/2020/usa-technologies-unattended-retail-age-of-ubiquity/",
+    "content": "Evolution is the hallmark of everything that survives over a long period of time — and so it should come as no surprise that unattended retail has evolved, too, over more than a century since the first coin-operated vending machines made their debut in the late 1800s."
   }
 ]
