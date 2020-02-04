@@ -54,16 +54,14 @@
     "categor": "Latest",
     "url": "https://www.bbc.com/news/world-asia-china-51353279",
     "content": "The Chinese government has accused the US of causing 'panic' in its response to the deadly coronavirus outbreak."
-  }
-  ,
+  },
   {
     "title": "BBC Indian Sportswoman of the Year nominees revealed",
     "loc": "India",
     "categor": "Sports",
     "url": "https://www.bbc.com/sport/51107182",
     "content": "The nominees for the inaugural BBC Indian Sportswoman award have been announced in Delhi."
-  }
-  ,
+  },
   {
     "title": "College esports teams offer scholarships for video gamers",
     "loc": "US",
@@ -77,13 +75,61 @@
     "categor": "Latest",
     "url": "https://gulfnews.com/uae/death-toll-rises-to-four-in-sharjah-oil-tanker-fire-1.1580675545408",
     "content": "UAE authorities to perform DNA tests to identity two bodies found severely burned."
-  }
-  ,
+  },
   {
     "title": "Police nab man who sold firearm to Jamia shooter",
     "loc": "India",
     "categor": "Latest",
     "url": "https://www.indiatoday.in/india/story/police-nab-man-who-sold-firearm-to-jamia-shooter-1642901-2020-02-03",
     "content": "The supplier has been identified as Ajeet. A resident of Jewar in Uttar Pradesh, Ajeet allegedly sold the shooter a country-made pistol for Rs 10,000."
+  },
+  {
+    "title": "UAE finds new natural gas field between Abu Dhabi, Dubai",
+    "loc": "UAE",
+    "categor": "Latest",
+    "url": "https://www.aljazeera.com/ajimpact/uae-finds-natural-gas-field-abu-dhabi-dubai-200203120215449.html",
+    "content": "The United Arab Emirates on Monday announced the discovery of a natural gas field containing 80 trillion standard cubic feet of gas between Abu Dhabi and Dubai. Authorities said the new Jebel Ali field would help the Emirates become more energy independent, as the UAE now imports natural gas from Qatar for electricity."
+  },
+  {
+    "title": "Emirates Literature fest begins today in Dubai",
+    "loc": "UAE",
+    "categor": "Latest",
+    "url": "https://www.khaleejtimes.com/uae/dubai/emirates-literature-fest-begins-today-in-dubai",
+    "content": "This year's Emirates Airline Festival of Literature is set to begin today in Dubai, featuring 206 authors from 43 countries, on top of a strong contingent of home-grown talent - the largest number ever recorded for the celebration."
+  },
+  {
+    "title": "Dubai Economy, Amazon explore ways to boost data",
+    "loc": "UAE",
+    "categor": "Latest",
+    "url": "https://www.khaleejtimes.com/dubai-economy-and-amazon-explore-ways-to-strengthen-data",
+    "content": "Sami Al Qamzi, director-general of Dubai Economy, and Michael Punke, vice-president of Public Policy at Amazon Web Services, held discussions on developing co-operation frameworks and enhancing Amazon's contribution to strategic digital transformation plans in Dubai and the UAE. Held in the presence of Fahad Al Gergawi, CEO of Dubai FDI, the discussions also included prospects for strategic co-operation in leveraging Dubai's strengths as a global business hub to promote innovation and entrepreneurship."
+  },
+  {
+    "title": "Dubai to host more than 70 sports events in February",
+    "loc": "UAE",
+    "categor": "Sports",
+    "url": "https://www.gulftoday.ae/sport/2020/01/29/dubai-to-host-more-than-70-sports-events-in-february",
+    "content": "February will be a blockbuster month for sports lovers in Dubai with the Emirate hosting more than 70 events this month, including 20 international championships that will bring the world’s top tennis players and the superstars of international cycling, among others, to the city."
+  },
+  {
+    "title": "Dubai to host more than 70 sports events in February",
+    "loc": "UAE",
+    "categor": "Sports",
+    "url": "https://www.gulftoday.ae/sport/2020/01/29/dubai-to-host-more-than-70-sports-events-in-february",
+    "content": "February will be a blockbuster month for sports lovers in Dubai with the Emirate hosting more than 70 events this month, including 20 international championships that will bring the world’s top tennis players and the superstars of international cycling, among others, to the city."
+  },
+  {
+    "title": "Desert Warrior Challenge returns to Dubai",
+    "loc": "UAE",
+    "categor": "Sports",
+    "url": "https://www.gulftoday.ae/sport/2020/02/03/desert-warrior-challenge-returns-to-dubai",
+    "content": "The much-anticipated Desert Warrior Challenge Dubai returns for its sixth edition in the UAE with the obstacle course race set to take place at Al Marmoom Desert Conservation Reserve on Feb.14."
+  },
+  {
+    "title": "Dubai government sports organisations under Dubai Sports Council’s supervision",
+    "loc": "UAE",
+    "categor": "Latest",
+    "url": "https://wam.ae/en/details/1395302816069",
+    "content": "DUBAI, 14th January, 2020 (WAM) -- In his capacity as Ruler of Dubai, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of UAE, has issued Decree No. 01 of 2020 placing Dubai government sports organisations under the supervision of Dubai Sports Council."
   }
 ]
