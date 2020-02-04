@@ -1,12 +1,18 @@
 [
   {
-    "title": "Cheap meat hard for German farmers to swallow",
-    "loc": "Germany",
+    "title": "Coronavirus in the U.S.: 11 Confirmed Cases, More Tests Underway",
+    "loc": "US",
     "categor": "Latest",
-    "url": "https://www.dw.com/en/cheap-meat-hard-for-german-farmers-to-swallow/a-52233453",
-    "content": "Meat is getting cheaper and cheaper in Germany and while customers profit from the trend, farmers and environmentalists are angry over discount supermarket prices. The government wants to talk with farmers and retailers."
-  }
-  ,
+    "url": "https://www.nytimes.com/2020/02/03/us/coronavirus-united-states-cases.html",
+    "content": "Though the vast majority of coronavirus cases have been in China, where hundreds of people have died and thousands more have been diagnosed, public health officials in the United States are racing to stop the disease from spreading widely in this country."
+  },
+  {
+    "title": "Coronavirus: China accuses US of causing panic and 'spreading fear'",
+    "loc": "China",
+    "categor": "Latest",
+    "url": "https://www.bbc.com/news/world-asia-china-51353279",
+    "content": "The Chinese government has accused the US of causing 'panic' in its response to the deadly coronavirus outbreak."
+  },
   {
     "title": "Iowa caucus live updates: Results and analysis from the first 2020 Democratic contest",
     "loc": "US",
@@ -55,13 +61,6 @@
     "categor": "Technology",
     "url": "https://www.japantimes.co.jp/news/2020/01/21/business/tech/japan-considering-fee-system-5g-networks-subsidize-launch-services-rural-areas/#.XjhHZPfhWUk",
     "content": "The communications ministry is considering introducing a system to charge internet users a fee so that fiber-optic infrastructure for 5G wireless networks can be constructed and maintained across the country, informed sources said Tuesday."
-  },
-  {
-    "title": "Coronavirus: China accuses US of causing panic and 'spreading fear'",
-    "loc": "China",
-    "categor": "Latest",
-    "url": "https://www.bbc.com/news/world-asia-china-51353279",
-    "content": "The Chinese government has accused the US of causing 'panic' in its response to the deadly coronavirus outbreak."
   },
   {
     "title": "BBC Indian Sportswoman of the Year nominees revealed",
@@ -136,162 +135,156 @@
   {
     "title": "Dubai government sports organisations under Dubai Sports Council’s supervision",
     "loc": "UAE",
-    "categor": "Latest",
+    "categor": "Technology",
     "url": "https://wam.ae/en/details/1395302816069",
     "content": "DUBAI, 14th January, 2020 (WAM) -- In his capacity as Ruler of Dubai, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of UAE, has issued Decree No. 01 of 2020 placing Dubai government sports organisations under the supervision of Dubai Sports Council."
-  }
-,
+  },
+  {
+    "title": "World elite gear up for the RAK Half Marathon",
+    "loc": "UAE",
+    "categor": "Sports",
+    "url": "https://sport360.com/article/regional-article/341434/world-elite-gear-up-for-the-rak-half-marathon",
+    "content": "Ras Al Khaimah Half Marathon 2020 – the world’s fastest half marathon – aims to once again set a lightning pace, hosting a lineup of world-class elite runners for its 14th edition on Friday, 21st February 2020."
+  },
+  {
+    "title": "Emirates Literature fest begins today in Dubai",
+    "loc": "UAE",
+    "categor": "Technology",
+    "url": "https://www.khaleejtimes.com/uae/dubai/emirates-literature-fest-begins-today-in-dubai",
+    "content": "This year's Emirates Airline Festival of Literature is set to begin today in Dubai, featuring 206 authors from 43 countries, on top of a strong contingent of home-grown talent - the largest number ever recorded for the celebration."
+  },
+  {
+    "title": "U.A.E. Finds World’s Biggest Gas Field Since 2005",
+    "loc": "UAE",
+    "categor": "Latest",
+    "url": "https://www.bloomberg.com/news/articles/2020-02-03/abu-dhabi-dubai-make-gas-discovery-in-push-for-self-sufficiency",
+    "content": "Dubai and Abu Dhabi made what could be the world’s largest natural gas discovery since 2005 as the two biggest sheikhdoms in the United Arab Emirates aim to push the country to energy self sufficiency."
+  },
+  {
+    "title": "Dubai Economy, Amazon explore ways to boost data",
+    "loc": "UAE",
+    "categor": "Technology",
+    "url": "https://www.khaleejtimes.com/dubai-economy-and-amazon-explore-ways-to-strengthen-data",
+    "content": "Sami Al Qamzi, director-general of Dubai Economy, and Michael Punke, vice-president of Public Policy at Amazon Web Services, held discussions on developing co-operation frameworks and enhancing Amazon's contribution to strategic digital transformation plans in Dubai and the UAE. Held in the presence of Fahad Al Gergawi, CEO of Dubai FDI, the discussions also included prospects for strategic co-operation in leveraging Dubai's strengths as a global business hub to promote innovation and entrepreneurship."
+  },
   {
     "title": "FMIA Super Bowl LIV: How the Chiefs ‘Put the Stinger’ in the 49ers and The Backstory on 2-3 Jet Chip Wasp",
     "loc": "US",
     "categor": "Sports",
     "url": "https://profootballtalk.nbcsports.com/2020/02/03/chiefs-win-super-bowl-liv-wasp-play-fmia-peter-king/?cid=nbcsports",
     "content": " Tyreek Hill, rushing through his last interview of the night near his locker, heard a mystery man behind him making an exultant guttural noise. Hill couldn’t escape Patrick Mahomes’ clutches. Mahomes bear-hugged him from behind, almost lifting the 180-pound Hill off the ground."
-  }
-,
+  },
   {
     "title": "Amazon workers protest proposal to raise bar for shareholder resolutions. ",
     "loc": "US",
     "categor": "Technology",
     "url": "https://www.nbcnews.com/news/all/amazon-workers-protest-proposal-raise-bar-shareholder-resolutions-n1129216",
     "content": "An employee-led group says an SEC proposal would discriminate against smaller investors and employees awarded company stock."
-  }
-,
+  },
   {
     "title": "Report: Rockets trying to dodge luxury tax before trade deadline",
     "loc": "US",
     "categor": "Sports",
     "url": "https://nba.nbcsports.com/2020/02/03/report-rockets-trying-to-dodge-luxury-tax-before-trade-deadline/",
     "content": "After the Rockets got eliminated last season, owner Tilman Fertitta put on a big show about his commitment to winning."
-  }
-  ,
+  },
   {
     "title": "Brian Wilson wants fans to boycott Beach Boys over show at hunting event with Trump Jr. ",
     "loc": "US",
     "categor": "Latest",
     "url": "https://www.nbcnews.com/news/us-news/brian-wilson-wants-fans-boycott-beach-boys-over-show-hunting-n1129386",
     "content": "The touring group is set to perform this week at the Safari Club International’s annual convention in Nevada."
-  }
-  ,
+  },
   {
     "title": "Clint Bowyer goes all out after Kansas City Chiefs win Super Bowl ",
     "loc": "US",
     "categor": "Sports",
     "url": "https://nascar.nbcsports.com/2020/02/03/clint-bowyer-super-bowl-chiefs-nascar/",
     "content": "Depending on how many beers he had, Clint Bowyer will likely never forget the events of Feb. 2, 2020."
-  }
-  ,
+  },
   {
     "title": "West Virginia plans to make smartphone voting available to disabled people for 2020 election",
     "loc": "US",
     "categor": "Technology",
     "url": "https://www.nbcnews.com/tech/security/west-virginia-plans-make-smartphone-voting-available-disabled-people-2020-n1127931",
     "content": "Cybersecurity experts have long railed against voting apps, saying that any kind of online voting unnecessarily increases security risks."
-  }
-,
+  },
   {
-    "title": "FMIA Super Bowl LIV: How the Chiefs ‘Put the Stinger’ in the 49ers and The Backstory on 2-3 Jet Chip Wasp",
+    "title": "USA Field Hockey to officially relocate from Spooky Nook Sports ",
     "loc": "US",
     "categor": "Sports",
-    "url": "https://profootballtalk.nbcsports.com/2020/02/03/chiefs-win-super-bowl-liv-wasp-play-fmia-peter-king/?cid=nbcsports",
-    "content": " Tyreek Hill, rushing through his last interview of the night near his locker, heard a mystery man behind him making an exultant guttural noise. Hill couldn’t escape Patrick Mahomes’ clutches. Mahomes bear-hugged him from behind, almost lifting the 180-pound Hill off the ground."
-  }
-,
+    "url": "https://lancasteronline.com/sports/usa-field-hockey-to-officially-relocate-from-spooky-nook-sports/article_f9cd7f1e-46b8-11ea-ad1a-c352cf4736eb.html",
+    "content": "The U.S. women's field hockey team will be relocating to a new training center, Spooky Nook and USA Field Hockey announced in a joint statement on Monday."
+  },
   {
-    "title": "Amazon workers protest proposal to raise bar for shareholder resolutions. ",
+    "title": "USAT: Unattended Retail’s (Dawning) Age Of Self-Serve Ubiquity",
     "loc": "US",
     "categor": "Technology",
-    "url": "https://www.nbcnews.com/news/all/amazon-workers-protest-proposal-raise-bar-shareholder-resolutions-n1129216",
-    "content": "An employee-led group says an SEC proposal would discriminate against smaller investors and employees awarded company stock."
-  }
-,
-  {
-    "title": "Report: Rockets trying to dodge luxury tax before trade deadline",
-    "loc": "US",
-    "categor": "Sports",
-    "url": "https://nba.nbcsports.com/2020/02/03/report-rockets-trying-to-dodge-luxury-tax-before-trade-deadline/",
-    "content": "After the Rockets got eliminated last season, owner Tilman Fertitta put on a big show about his commitment to winning."
-  }
-  ,
-  {
-    "title": "Brian Wilson wants fans to boycott Beach Boys over show at hunting event with Trump Jr. ",
-    "loc": "US",
-    "categor": "Latest",
-    "url": "https://www.nbcnews.com/news/us-news/brian-wilson-wants-fans-boycott-beach-boys-over-show-hunting-n1129386",
-    "content": "The touring group is set to perform this week at the Safari Club International’s annual convention in Nevada."
-  }
-  ,
-  {
-    "title": "Clint Bowyer goes all out after Kansas City Chiefs win Super Bowl ",
-    "loc": "US",
-    "categor": "Sports",
-    "url": "https://nascar.nbcsports.com/2020/02/03/clint-bowyer-super-bowl-chiefs-nascar/",
-    "content": "Depending on how many beers he had, Clint Bowyer will likely never forget the events of Feb. 2, 2020."
-  }
-  ,
-  {
-    "title": "West Virginia plans to make smartphone voting available to disabled people for 2020 election",
-    "loc": "US",
-    "categor": "Technology",
-    "url": "https://www.nbcnews.com/tech/security/west-virginia-plans-make-smartphone-voting-available-disabled-people-2020-n1127931",
-    "content": "Cybersecurity experts have long railed against voting apps, saying that any kind of online voting unnecessarily increases security risks."
-  }
-  ,
-  {
-    "title": "Samsung Galaxy S9, S9+ start receiving Android 10 update",
-    "loc": "India",
-    "categor": "Technology",
-    "url": "https://www.indiatoday.in/technology/news/story/samsung-galaxy-s9-s9-start-receiving-android-10-update-1642730-2020-02-03",
-    "content": "The company is said to be rolling out the final build of Android 10 based One UI 2 to S9 and S9+ users who had previously signed up for the beta program. "
-  }
-  ,
-  {
-    "title": "Meet Arvind Krishna, new IBM CEO who is latest south Indian to head global IT company",
-    "loc": "India",
-    "categor": "Technology",
-    "url": "https://www.indiatoday.in/technology/news/story/meet-arvind-krishna-new-ibm-ceo-who-is-latest-south-indian-to-head-global-it-company-1642327-2020-02-01",
-    "content": "Arvind Krishna, born in Andhra Pradesh, is going to be the CEO at IBM from April. He joins three other India-born CEOs who are currently heading Microsoft, Google and Adobe.    "
-  }
-  ,
-  {
-    "title": "Budget 2020: New scheme to boost local manufacturing of mobiles, will iPhone get cheaper now?",
-    "loc": "India",
-    "categor": "Technology",
-    "url": "https://www.indiatoday.in/technology/news/story/budget-2020-fm-sitharaman-announces-scheme-to-boost-local-manufacturing-of-cell-phones-will-the-iphone-become-more-cheaper-1642286-2020-02-01",
-    "content": "Budget Speech 2020 delivered by FM Sitharaman outlined local manufacturing of cell phones is important and should be boosted."
-  }
-  ,
-  
-  {
-    "title": "Clint Bowyer goes all out after Kansas City Chiefs win Super Bowl ",
-    "loc": "US",
-    "categor": "Sports",
-    "url": "https://nascar.nbcsports.com/2020/02/03/clint-bowyer-super-bowl-chiefs-nascar/",
-    "content": "Depending on how many beers he had, Clint Bowyer will likely never forget the events of Feb. 2, 2020."
-  }
-  ,
-  
-  {
-    "title": "U19 World Cup Semifinal: High-intensity clash on the cards as India meet Pakistan",
-    "loc": "India",
-    "categor": "Sports",
-    "url": "https://www.indiatoday.in/sports/cricket/story/u19-world-cup-india-vs-pakistan-semifinal-priyam-garg-yashasvi-jaiswal-1642978-2020-02-03",
-    "content": "U19 World Cup: The last time the two were up against each other in the 2018 World Cup semi-final, now India senior cricketer Shubman Gill notched up an unbeaten century to set a 273-run total for India.   "
-  }
-  ,
+    "url": "https://www.pymnts.com/unattended-retail/2020/usa-technologies-unattended-retail-age-of-ubiquity/",
+    "content": "Evolution is the hallmark of everything that survives over a long period of time — and so it should come as no surprise that unattended retail has evolved, too, over more than a century since the first coin-operated vending machines made their debut in the late 1800s."
+  },
+
   {
     "title": "KL Rahul keeps up the good work to push MS Dhoni, Rishabh Pant debate to backseat",
     "loc": "India",
     "categor": "Sports",
     "url": "https://www.indiatoday.in/sports/cricket/story/kl-rahul-success-wicketkeeper-batsman-role-ms-dhoni-rishabh-pant-debate-ind-vs-nz-1642888-2020-02-03",
     "content": "KL Rahul’s success as wicketkeeper-batsman in the recently-concluded 5-match T20I series has provided the Indian team a lot of flexibility and allowed the players to focus on their roles better."
-  }
-  ,
+  },
   {
     "title": "Who is Sudhakar Shetty: Dance bar caretaker who rose high and fast",
     "loc": "India",
     "categor": "Latest",
     "url": "https://www.indiatoday.in/india/story/who-is-sudhakar-shetty-dance-bar-caretaker-who-rose-high-and-fast-1643057-2020-02-04",
     "content": "Sudhakar Shetty, Sahana group of companies chairman, also runs a real estate business and is a major stakeholder in a regional news channel."
+  },
+  {
+    "title": "Samsung Galaxy S9, S9+ start receiving Android 10 update",
+    "loc": "India",
+    "categor": "Technology",
+    "url": "https://www.indiatoday.in/technology/news/story/samsung-galaxy-s9-s9-start-receiving-android-10-update-1642730-2020-02-03",
+    "content": "The company is said to be rolling out the final build of Android 10 based One UI 2 to S9 and S9+ users who had previously signed up for the beta program. "
+  },
+  {
+    "title": "Meet Arvind Krishna, new IBM CEO who is latest south Indian to head global IT company",
+    "loc": "India",
+    "categor": "Technology",
+    "url": "https://www.indiatoday.in/technology/news/story/meet-arvind-krishna-new-ibm-ceo-who-is-latest-south-indian-to-head-global-it-company-1642327-2020-02-01",
+    "content": "Arvind Krishna, born in Andhra Pradesh, is going to be the CEO at IBM from April. He joins three other India-born CEOs who are currently heading Microsoft, Google and Adobe.    "
+  },
+  {
+    "title": "Budget 2020: New scheme to boost local manufacturing of mobiles, will iPhone get cheaper now?",
+    "loc": "India",
+    "categor": "Technology",
+    "url": "https://www.indiatoday.in/technology/news/story/budget-2020-fm-sitharaman-announces-scheme-to-boost-local-manufacturing-of-cell-phones-will-the-iphone-become-more-cheaper-1642286-2020-02-01",
+    "content": "Budget Speech 2020 delivered by FM Sitharaman outlined local manufacturing of cell phones is important and should be boosted."
+  },
+  {
+    "title": "U19 World Cup Semifinal: High-intensity clash on the cards as India meet Pakistan",
+    "loc": "India",
+    "categor": "Sports",
+    "url": "https://www.nbcnews.com/politics/2020-election/live-blog/iowa-caucuses-live-updates-2020-democrats-make-their-final-pitches-n1128596",
+    "content": "The last time the two were up against each other in the 2018 World Cup semi-final, now India senior cricketer Shubman Gill notched up an unbeaten century to set a 273-run total for India."
+  },
+  {
+    "title": "Yet another Windows 10 update is causing problems",
+    "loc": "India",
+    "categor": "Technology",
+    "url": "https://betanews.com/2020/02/03/windows-10-kb4532695-problems/",
+    "content": "Microsoft released the KB4532695 update last week to address problems with Explorer which were introduced by the November 2019 Update. But this update has itself been found to cause issues, with users complaining of BSoDs, audio problems and more."
+  },
+  {
+    "title": "PAK vs BAN: Bangladesh announce squad for Rawalpindi Test",
+    "loc": "India",
+    "categor": "Sports",
+    "url": "https://crickettimes.com/2020/02/pak-vs-ban-bangladesh-announce-squad-for-rawalpindi-test/",
+    "content": "The Bangladesh Cricket Board (BCB) recently announced their Test squad for the upcoming Rawalpindi Test match, starting February 7. The second Test match will be played from April 5 at National Stadium, Karachi."
+  },
+  {
+    "title": "Cheap meat hard for German farmers to swallow",
+    "loc": "Germany",
+    "categor": "Latest",
+    "url": "https://www.dw.com/en/cheap-meat-hard-for-german-farmers-to-swallow/a-52233453",
+    "content": "Meat is getting cheaper and cheaper in Germany and while customers profit from the trend, farmers and environmentalists are angry over discount supermarket prices. The government wants to talk with farmers and retailers."
   }
 ]
