@@ -5,6 +5,14 @@
     "categor": "Latest",
     "url": "https://www.dw.com/en/cheap-meat-hard-for-german-farmers-to-swallow/a-52233453",
     "content": "Meat is getting cheaper and cheaper in Germany and while customers profit from the trend, farmers and environmentalists are angry over discount supermarket prices. The government wants to talk with farmers and retailers."
+  }
+  ,
+  {
+    "title": "Iowa caucus live updates: Results and analysis from the first 2020 Democratic contest",
+    "loc": "US",
+    "categor": "Latest",
+    "url": "https://www.nbcnews.com/politics/2020-election/live-blog/iowa-caucuses-live-updates-2020-democrats-make-their-final-pitches-n1128596",
+    "content": "Iowa's 41 pledged delegates are up for grabs in the first nominating contest of the 2020 election."
   },
   {
     "title": "America's Most Racially Diverse Big Cities",
@@ -85,5 +93,53 @@
     "categor": "Latest",
     "url": "https://www.indiatoday.in/india/story/police-nab-man-who-sold-firearm-to-jamia-shooter-1642901-2020-02-03",
     "content": "The supplier has been identified as Ajeet. A resident of Jewar in Uttar Pradesh, Ajeet allegedly sold the shooter a country-made pistol for Rs 10,000."
+  }
+,
+  {
+    "title": "FMIA Super Bowl LIV: How the Chiefs ‘Put the Stinger’ in the 49ers and The Backstory on 2-3 Jet Chip Wasp",
+    "loc": "US",
+    "categor": "Sports",
+    "url": "https://profootballtalk.nbcsports.com/2020/02/03/chiefs-win-super-bowl-liv-wasp-play-fmia-peter-king/?cid=nbcsports",
+    "content": " Tyreek Hill, rushing through his last interview of the night near his locker, heard a mystery man behind him making an exultant guttural noise. Hill couldn’t escape Patrick Mahomes’ clutches. Mahomes bear-hugged him from behind, almost lifting the 180-pound Hill off the ground."
+  }
+,
+  {
+    "title": "Amazon workers protest proposal to raise bar for shareholder resolutions. ",
+    "loc": "US",
+    "categor": "Technology",
+    "url": "https://www.nbcnews.com/news/all/amazon-workers-protest-proposal-raise-bar-shareholder-resolutions-n1129216",
+    "content": "An employee-led group says an SEC proposal would discriminate against smaller investors and employees awarded company stock."
+  }
+,
+  {
+    "title": "Report: Rockets trying to dodge luxury tax before trade deadline",
+    "loc": "US",
+    "categor": "Sports",
+    "url": "https://nba.nbcsports.com/2020/02/03/report-rockets-trying-to-dodge-luxury-tax-before-trade-deadline/",
+    "content": "After the Rockets got eliminated last season, owner Tilman Fertitta put on a big show about his commitment to winning."
+  }
+  ,
+  {
+    "title": "Brian Wilson wants fans to boycott Beach Boys over show at hunting event with Trump Jr. ",
+    "loc": "US",
+    "categor": "Latest",
+    "url": "https://www.nbcnews.com/news/us-news/brian-wilson-wants-fans-boycott-beach-boys-over-show-hunting-n1129386",
+    "content": "The touring group is set to perform this week at the Safari Club International’s annual convention in Nevada."
+  }
+  ,
+  {
+    "title": "Clint Bowyer goes all out after Kansas City Chiefs win Super Bowl ",
+    "loc": "US",
+    "categor": "Sports",
+    "url": "https://nascar.nbcsports.com/2020/02/03/clint-bowyer-super-bowl-chiefs-nascar/",
+    "content": "Depending on how many beers he had, Clint Bowyer will likely never forget the events of Feb. 2, 2020."
+  }
+  ,
+  {
+    "title": "West Virginia plans to make smartphone voting available to disabled people for 2020 election",
+    "loc": "US",
+    "categor": "Technology",
+    "url": "https://www.nbcnews.com/tech/security/west-virginia-plans-make-smartphone-voting-available-disabled-people-2020-n1127931",
+    "content": "Cybersecurity experts have long railed against voting apps, saying that any kind of online voting unnecessarily increases security risks."
   }
 ]
